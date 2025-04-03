@@ -1,0 +1,30 @@
+// MySQLi Extension (MysQL Improved) is a relational database driver used in the PHP scripting language to provide an interface with
+ MYSQL protocol compatible databasees (MariaDB, MYSQL etc).
+
+ The MySQLi function allows you to access MySQL database servers.
+
+ There are three main API options when considering connecting to a MySQL database:
+ - PHP's MySQL Extenstion
+ - PHP's MySQLi Extension
+ - PHP's Data Object (PDO)
+
+
+ // Used functions for this project
+ connect_error() - returns the error description from the last connection error.
+ real_escape_string() - Escapes special characters in a string for use in SQL statement.
+ query() - Performs an SQL query against a database
+ mysqli_run() - 
+ num_rows() - checks and returns the number of rows/records in the database table
+
+
+ exit() function: Used whenever you need to end a script with no further work
+    takes maximum of 1 argument.
+
+// Including files in PHP
+- include 'filename.php';   -- Pulls the file here
+- indlude_once "filename.php";  -- Pull the file in here unless it 
+   has already been pulled in before
+- require "filename.php";  -- Pull in the file here and die if it is missing.
+- require_once "filename.php";  -- 
+- These can look like functions :: require_once("filename.php");
+
